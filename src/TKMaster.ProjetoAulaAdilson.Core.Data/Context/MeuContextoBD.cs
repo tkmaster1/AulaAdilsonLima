@@ -3,6 +3,7 @@ using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using TKMaster.ProjetoAulaAdilson.Core.Domain.Entities;
 
 namespace TKMaster.ProjetoAulaAdilson.Core.Data
 {
@@ -17,6 +18,8 @@ namespace TKMaster.ProjetoAulaAdilson.Core.Data
         #endregion
 
         #region DBSets
+
+        public DbSet<Cliente> Clientes { get; set; }
 
         #endregion
 
@@ -38,7 +41,7 @@ namespace TKMaster.ProjetoAulaAdilson.Core.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.EnableSensitiveDataLogging();
+            optionsBuilder.EnableSensitiveDataLogging(false);
         }
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
