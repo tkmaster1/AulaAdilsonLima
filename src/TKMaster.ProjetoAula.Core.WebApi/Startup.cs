@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using TKMaster.ProjetoAula.Core.WebApi.Configurations;
+using TKMaster.ProjetoAulaAdilson.Core.WebApi.Configurations;
 
-namespace TKMaster.ProjetoAula.Core.WebApi
+namespace TKMaster.ProjetoAulaAdilson.Core.WebApi
 {
     public class Startup
     {

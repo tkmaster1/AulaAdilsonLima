@@ -5,7 +5,7 @@ using TKMaster.ProjetoAulaAdilson.Core.Data;
 using TKMaster.ProjetoAulaAdilson.Core.Domain.Interfaces.Notifications;
 using TKMaster.ProjetoAulaAdilson.Core.Domain.Notifications;
 
-namespace TKMaster.ProjetoAula.Core.IoC
+namespace TKMaster.ProjetoAulaAdilson.Core.IoC
 {
     public class BootStrapper
     {
@@ -21,16 +21,12 @@ namespace TKMaster.ProjetoAula.Core.IoC
 
             #region Domain
 
-           // services.AddScoped<IClienteAppService, ClienteAppService>();
-
             #endregion
 
             #region InfraData
 
             services.AddScoped<MeuContextoBD>();
             services.AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler>();
-            //services.AddScoped<IClienteRepository, ClienteRepository>();
-            //services.AddScoped<IEnderecoRepository, EnderecoRepository>();
 
             #endregion
         }

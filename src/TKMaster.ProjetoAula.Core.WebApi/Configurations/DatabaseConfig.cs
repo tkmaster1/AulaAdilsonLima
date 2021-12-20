@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using TKMaster.ProjetoAulaAdilson.Core.Data;
 
-namespace TKMaster.ProjetoAula.Core.WebApi.Configurations
+namespace TKMaster.ProjetoAulaAdilson.Core.WebApi.Configurations
 {
     public static class DatabaseConfig
     {

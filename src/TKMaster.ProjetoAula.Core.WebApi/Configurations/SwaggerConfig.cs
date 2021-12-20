@@ -4,7 +4,7 @@ using Microsoft.OpenApi.Models;
 using System;
 using System.Linq;
 
-namespace TKMaster.ProjetoAula.Core.WebApi.Configurations
+namespace TKMaster.ProjetoAulaAdilson.Core.WebApi.Configurations
 {
     public static class SwaggerConfig
     {
@@ -20,7 +20,7 @@ namespace TKMaster.ProjetoAula.Core.WebApi.Configurations
                     , new OpenApiInfo
                     {
                         Version = configuration["AppSettings:Application:Version"],
-                        Title = "Exemplo para aula Core API",
+                        Title = "Exemplo para aula Adilson Core API",
                         Description = "Teste Core API Swagger",
                         Contact = new OpenApiContact
                         {

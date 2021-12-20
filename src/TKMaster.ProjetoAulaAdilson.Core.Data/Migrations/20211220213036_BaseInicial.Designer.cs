@@ -10,8 +10,8 @@ using TKMaster.ProjetoAulaAdilson.Core.Data;
 namespace TKMaster.ProjetoAulaAdilson.Core.Data.Migrations
 {
     [DbContext(typeof(MeuContextoBD))]
-    [Migration("20211211215717_BaseAula2")]
-    partial class BaseAula2
+    [Migration("20211220213036_BaseInicial")]
+    partial class BaseInicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

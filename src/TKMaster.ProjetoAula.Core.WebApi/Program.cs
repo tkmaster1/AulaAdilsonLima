@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace TKMaster.ProjetoAula.Core.WebApi
+namespace TKMaster.ProjetoAulaAdilson.Core.WebApi
 {
     public class Program
     {

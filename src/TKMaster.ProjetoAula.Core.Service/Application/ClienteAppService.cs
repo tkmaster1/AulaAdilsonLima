@@ -5,7 +5,7 @@ using TKMaster.ProjetoAulaAdilson.Core.Domain.Entities;
 using TKMaster.ProjetoAulaAdilson.Core.Domain.Interfaces.Repositories;
 using TKMaster.ProjetoAulaAdilson.Core.Domain.Interfaces.Services;
 
-namespace TKMaster.ProjetoAula.Core.Service.Application
+namespace TKMaster.ProjetoAulaAdilson.Core.Service.Application
 {
     public class ClienteAppService : IClienteAppService
     {

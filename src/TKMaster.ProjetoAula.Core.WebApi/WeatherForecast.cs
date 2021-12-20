@@ -1,6 +1,6 @@
 using System;
 
-namespace TKMaster.ProjetoAula.Core.WebApi
+namespace TKMaster.ProjetoAulaAdilson.Core.WebApi
 {
     public class WeatherForecast
     {

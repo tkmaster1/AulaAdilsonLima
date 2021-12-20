@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TKMaster.ProjetoAula.Core.IoC\TKMaster.ProjetoAula.Core.IoC.csproj" />
+    <ProjectReference Include="..\TKMaster.ProjetoAula.Core.IoC\TKMaster.ProjetoAulaAdilson.Core.IoC.csproj" />
     <ProjectReference Include="..\TKMaster.ProjetoAulaAdilson.Core.Data\TKMaster.ProjetoAulaAdilson.Core.Data.csproj" />
   </ItemGroup>
 

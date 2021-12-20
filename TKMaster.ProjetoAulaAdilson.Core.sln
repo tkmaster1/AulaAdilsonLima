@@ -19,11 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TKMaster.ProjetoAulaAdilson
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TKMaster.ProjetoAulaAdilson.Core.Data", "src\TKMaster.ProjetoAulaAdilson.Core.Data\TKMaster.ProjetoAulaAdilson.Core.Data.csproj", "{1F1F03A7-F67D-4228-BF4E-545F8844B65E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TKMaster.ProjetoAula.Core.WebApi", "src\TKMaster.ProjetoAula.Core.WebApi\TKMaster.ProjetoAula.Core.WebApi.csproj", "{2CEC9E94-AEE6-48DF-BAEC-B7CA6DBBA92B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TKMaster.ProjetoAulaAdilson.Core.WebApi", "src\TKMaster.ProjetoAula.Core.WebApi\TKMaster.ProjetoAulaAdilson.Core.WebApi.csproj", "{2CEC9E94-AEE6-48DF-BAEC-B7CA6DBBA92B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TKMaster.ProjetoAula.Core.IoC", "src\TKMaster.ProjetoAula.Core.IoC\TKMaster.ProjetoAula.Core.IoC.csproj", "{A5DA4E9D-EAB0-4BFA-B272-3FD1563859C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TKMaster.ProjetoAulaAdilson.Core.IoC", "src\TKMaster.ProjetoAula.Core.IoC\TKMaster.ProjetoAulaAdilson.Core.IoC.csproj", "{A5DA4E9D-EAB0-4BFA-B272-3FD1563859C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TKMaster.ProjetoAula.Core.Service", "src\TKMaster.ProjetoAula.Core.Service\TKMaster.ProjetoAula.Core.Service.csproj", "{12C24B5B-383F-4A65-B7A8-8E569801CB0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TKMaster.ProjetoAulaAdilson.Core.Service", "src\TKMaster.ProjetoAula.Core.Service\TKMaster.ProjetoAulaAdilson.Core.Service.csproj", "{12C24B5B-383F-4A65-B7A8-8E569801CB0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

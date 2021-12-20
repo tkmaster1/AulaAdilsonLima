@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System;
-using TKMaster.ProjetoAula.Core.IoC;
+using TKMaster.ProjetoAulaAdilson.Core.IoC;
 
-namespace TKMaster.ProjetoAula.Core.WebApi.Configurations
+namespace TKMaster.ProjetoAulaAdilson.Core.WebApi.Configurations
 {
     public static class DependencyInjectionConfiguration
     {
