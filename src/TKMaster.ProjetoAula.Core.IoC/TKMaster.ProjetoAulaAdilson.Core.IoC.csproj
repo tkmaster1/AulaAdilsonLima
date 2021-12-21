@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TKMaster.ProjetoAula.Core.Service\TKMaster.ProjetoAulaAdilson.Core.Service.csproj" />
     <ProjectReference Include="..\TKMaster.ProjetoAulaAdilson.Core.Data\TKMaster.ProjetoAulaAdilson.Core.Data.csproj" />
     <ProjectReference Include="..\TKMaster.ProjetoAulaAdilson.Core.Domain\TKMaster.ProjetoAulaAdilson.Core.Domain.csproj" />
   </ItemGroup>
